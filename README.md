@@ -30,10 +30,16 @@ You can view the live deployment of the project here:
 ## 📂 Project Structure
 
 ```text
-├── index.html          # Main entry point
-├── css/                # Stylesheets (layouts, components, media queries)
-│   └── style.css
-├── js/                 # Client-side JavaScript scripts
-│   └── main.js
-└── README.md           # Project documentation
+Netflix-clone/
+└── src/
+    ├── components
+                └── MovieModal.jsx
+                ├── MovieRow.jsx
+    ├── Data
+          └── movies.js
+    ├──Pages     
+    ├── App.jsx
+    ├── App.css
+    ├── main.jsx
+    └── index.css
 
