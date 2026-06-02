@@ -10,19 +10,13 @@ The user interface is built using React, handling routing, user authentication v
 ```text
 Netflix-clone/
 └── src/
+    ├── components
+                └── MovieModal.jsx
+                ├── MovieRow.jsx
+    ├── Data
+          └── movies.js
+    ├──Pages     
     ├── App.jsx
     ├── App.css
-    ├── Browse.jsx
-    ├── Register.jsx
     ├── main.jsx
     └── index.css
-
-### Backend (Spring Boot)
-
-```text
-Demo/
-└── src/main/java/com/example/demo/
-    ├── DemoApplication.java  # Main application entry point
-    ├── MovieClick.java       # Entity model for tracking movie data
-    ├── ClickRepository.java  # Repository interface for database queries
-    └── StatsController.java  # REST API controller for handling analytics endpoints
